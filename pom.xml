@@ -20,7 +20,9 @@
                         </goals>
                     </execution>
                 </executions>
-               </plugin>
+				<configuration>
+				<group>Development</group>
+				   </plugin>
         </plugins>
     </build>
 	
