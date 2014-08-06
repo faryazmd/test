@@ -147,7 +147,7 @@
                     <preremoveScriptlet>
                         <scriptFile>src/main/scripts/preremove</scriptFile>
                         <fileEncoding>utf-8</fileEncoding>
-                    </preremoveScript>
+                    </preremoveScriptlet>
                 </configuration>
             </plugin>
         </plugins>
