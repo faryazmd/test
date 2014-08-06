@@ -4,7 +4,7 @@
 <artifactId>jshantz4-lab5</artifactId>
 <description>this is a test package</description>
 <name>test package</name>
-<organization>hometest</test>
+<organization>hometest</organization>
 <packaging>jar</packaging>
 <version>1.0-SNAPSHOT</version>
 
