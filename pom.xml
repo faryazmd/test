@@ -22,7 +22,7 @@
                 </executions>
 				<configuration>
 				<group>Development</group>
-				</configuratin>
+				</configuration>
 				   </plugin>
         </plugins>
     </build>
