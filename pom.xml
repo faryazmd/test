@@ -22,6 +22,11 @@
                 </executions>
 				<configuration>
 				<group>Development</group>
+				<mappings>
+				<mapping>
+				<directory>/home</directory>
+				</mapping>
+				</mappings>
 				</configuration>
 				   </plugin>
         </plugins>
