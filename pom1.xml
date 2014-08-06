@@ -1,0 +1,40 @@
+<project>
+<modelVersion>4.0.0</modelVersion>
+<groupId>ca.uwo.csd.cs2212.jshantz4</groupId>
+<artifactId>jshantz4-lab5</artifactId>
+<description>this is a test package</description>
+<name>test package</name>
+<packaging>jar</packaging>
+<version>1.0-SNAPSHOT</version>
+
+<build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>rpm-maven-plugin</artifactId>
+				  <version>2.1-alpha-4</version>
+				  <executions>
+                    <execution>
+                        <id>attach-rpm</id>
+                        <goals>
+                            <goal>attached-rpm</goal>
+                        </goals>
+                    </execution>
+                </executions>
+               </plugin>
+        </plugins>
+    </build>
+	
+<properties>
+<maven.compiler.source>7</maven.compiler.source>
+<maven.compiler.target>7</maven.compiler.target>
+</properties>
+
+<dependencies>
+<dependency>
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>4.11</version>
+</dependency>
+</dependencies>
+</project>
