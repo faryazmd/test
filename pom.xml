@@ -26,8 +26,13 @@
             <version>2.4</version>
             <scope>provided</scope>
         </dependency>
-    </dependencies>
-
+			<dependency>
+	<groupId>junit</groupId>
+	<artifactId>junit</artifactId>
+	<version>4.11</version>
+	</dependency>
+	</dependencies>
+    
     <build>
         <plugins>
             <plugin>
@@ -152,11 +157,4 @@
             </plugin>
         </plugins>
     </build>
-	<dependencies>
-	<dependency>
-	<groupId>junit</groupId>
-	<artifactId>junit</artifactId>
-	<version>4.11</version>
-	</dependency>
-	</dependencies>
-</project>
+	</project>
