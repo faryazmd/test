@@ -24,6 +24,7 @@
                 </executions>
 				<configuration>
 				<license>GPL (c) 2005, SWWDC</license>
+				 <copyright>Company name - All rights reserved</copyright>
 				<group>Development</group>
 				<description>maven recipe: rpm package.</description>
 				<mappings>
