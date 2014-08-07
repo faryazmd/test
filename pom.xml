@@ -6,7 +6,9 @@
 <name>test package</name>
 <packaging>rpm</packaging>
 <version>1.0-SNAPSHOT</version>
-
+<properties>
+<app.home>/home</app.home>
+</properties>
 <build>
         <plugins>
             <plugin>
@@ -23,9 +25,14 @@
                 </executions>
 				<configuration>
 				<group>Development</group>
+				<description>maven recipe: rpm package.</description>
 				<mappings>
 				<mapping>
 				<directory>/home</directory>
+				<sources>
+				<source>
+				<location>target/home</location>
+				</source>
 				</mapping>
 				</mappings>
 				</configuration>
