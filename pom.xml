@@ -33,6 +33,7 @@
 				<source>
 				<location>target/home</location>
 				</source>
+				</sources>
 				</mapping>
 				</mappings>
 				</configuration>
