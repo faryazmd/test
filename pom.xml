@@ -30,7 +30,7 @@
 				<directory>/home</directory>
 				<sources>
                                 <source>
-                                    <location>target/*.jar</location>
+                                    <location>target/jshantz4-lab5-1.0-SNAPSHOT.jar</location>
                                 </source>
                             </sources>
 				</mapping>
