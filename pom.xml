@@ -4,7 +4,7 @@
 <artifactId>jshantz4-lab5</artifactId>
 <description>this is a test package</description>
 <name>test package</name>
-<packaging>rpm</packaging>
+<packaging>jar</packaging>
 <version>1.0-SNAPSHOT</version>
 <properties>
 <app.home>/home</app.home>
@@ -15,7 +15,6 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>rpm-maven-plugin</artifactId>
 				  <version>2.0.1</version>
-				  <extensions>true</extensions>
 				  <executions>
                     <execution>
                         <goals>
