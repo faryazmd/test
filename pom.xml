@@ -29,11 +29,6 @@
 				<mappings>
 				<mapping>
 				<directory>/home</directory>
-				<sources>
-				<source>
-				<location>target/home</location>
-				</source>
-				</sources>
 				</mapping>
 				</mappings>
 				</configuration>
