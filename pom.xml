@@ -23,6 +23,7 @@
                     </execution>
                 </executions>
 				<configuration>
+				<license>GPL (c) 2005, SWWDC</license>
 				<group>Development</group>
 				<description>maven recipe: rpm package.</description>
 				<mappings>
