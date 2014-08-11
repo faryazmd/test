@@ -9,12 +9,18 @@
 <properties>
 <app.home>/home</app.home>
 </properties>
-<distributionManagement>
-  <repository>
-    <id>releases</id>
-    <url>http://10.21.3.221:8081/nexus/content/repositories/releases</url>
-  </repository>
-</distributionManagement>
+<DISTRIBUTIONMANAGEMENT> 
+ <REPOSITORY> 
+ <ID>releases</ID> 
+ <NAME>Release Repository</NAME> 
+ <URL>http://10.21.3.221:8081/nexus/content/repositories/releases/</URL> 
+ </REPOSITORY>  
+ <SNAPSHOTREPOSITORY> 
+ <ID>snapshots</ID> 
+ <NAME>Snapshot Repository</NAME>  
+ <URL>http://10.21.3.221:8081/nexus/content/repositories/snapshots/</URL>  
+ </SNAPSHOTREPOSITORY> 
+ </DISTRIBUTIONMANAGEMENT>
 <build>
         <plugins>
             <plugin>
