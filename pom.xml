@@ -11,8 +11,8 @@
 </properties>
 <distributionManagement>
   <repository>
-    <id>test-releases</id>
-    <url>http://10.21.3.221:8081/nexus/content/repositories/test-releases</url>
+    <id>releases</id>
+    <url>http://10.21.3.221:8081/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
 <build>
