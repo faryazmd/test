@@ -40,11 +40,7 @@
 				<mappings>
 				<mapping>
 				<directory>/home</directory>
-				<sources>
-                                <source>
-                                    <location>target/test04-1.0-SNAPSHOT.jar</location>
-                                </source>
-                            </sources>
+				
 				</mapping>
 				</mappings>
 				</configuration>
