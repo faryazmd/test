@@ -1,7 +1,7 @@
 <project>
 <modelVersion>4.0.0</modelVersion>
 <groupId>test</groupId>
-<artifactId>test01</artifactId>
+<artifactId>test02</artifactId>
 <description>this is a test package</description>
 <name>test package</name>
 <packaging>jar</packaging>
@@ -42,7 +42,7 @@
 				<directory>/home</directory>
 				<sources>
                                 <source>
-                                    <location>target/test01-1.0-SNAPSHOT.jar</location>
+                                    <location>target/test02-1.0-SNAPSHOT.jar</location>
                                 </source>
                             </sources>
 				</mapping>
