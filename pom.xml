@@ -1,7 +1,7 @@
 <project> 
 <modelVersion>4.0.0</modelVersion> 
- <groupId>test</groupId> 
- <artifactId>test06</artifactId> 
+ <groupId>main</groupId> 
+ <artifactId>main01</artifactId> 
  <description>this is a test package</description> 
  <name>test package</name> 
  <packaging>jar</packaging> 
