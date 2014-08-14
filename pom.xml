@@ -1,7 +1,7 @@
 <project> 
 <modelVersion>4.0.0</modelVersion> 
  <groupId>main</groupId> 
- <artifactId>main01</artifactId> 
+ <artifactId>main10</artifactId> 
  <description>this is a test package</description> 
  <name>test package</name> 
  <packaging>war</packaging> 
@@ -42,7 +42,7 @@
  				<directory>/var/lib/tomcat6/webapps</directory> 
 				<sources> 
                                  <source> 
-                                     <location>target/main01-1.0.war</location> 
+                                     <location>target/main10-1.0.war</location> 
                                  </source> 
                              </sources> 
  				</mapping> 
