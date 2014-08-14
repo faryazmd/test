@@ -4,7 +4,7 @@
  <artifactId>main01</artifactId> 
  <description>this is a test package</description> 
  <name>test package</name> 
- <packaging>jar</packaging> 
+ <packaging>war</packaging> 
  <version>1.0</version> 
  <properties> 
  <app.home>/home</app.home> 
@@ -39,7 +39,12 @@
  				<description>maven recipe: rpm package.</description> 
  				<mappings> 
  				<mapping> 
- 				<directory>/home</directory> 
+ 				<directory>/var/lib/tomcat6/webapps</directory> 
+				<sources> 
+                                 <source> 
+                                     <location>target/main01-1.0.war</location> 
+                                 </source> 
+                             </sources> 
  				</mapping> 
  				</mappings> 
  				</configuration> 
