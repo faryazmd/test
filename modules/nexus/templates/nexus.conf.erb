@@ -1,0 +1,19 @@
+<VirtualHost *:443>
+   SSLEngine on
+   SSLCertificateFile /etc/pki/tls/certs/<%= fqdn%>.crt
+   SSLCertificateKeyFile /etc/pki/tls/private/<%= fqdn%>.key
+   ServerName <%= fqdn%>
+   ProxyRequests off
+   DocumentRoot "/srv"
+   <Proxy *>
+        Order deny,allow
+        Allow from all
+   </Proxy>
+   ProxyPreserveHost on
+   ProxyPass /nexus/ http://localhost:8081/nexus/
+   ProxyPassReverse  /nexus/  http://localhost:8081/nexus/
+   ProxyPassReverseCookiePath / /nexus
+   RequestHeader set X-Forwarded-Proto "https"
+   RequestHeader set X-Forwarded-Port "443"
+</VirtualHost>
+
