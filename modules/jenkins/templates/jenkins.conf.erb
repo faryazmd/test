@@ -1,0 +1,17 @@
+<VirtualHost *:443>
+   SSLEngine on
+   SSLCertificateFile /etc/pki/tls/certs/<%= @fqdn%>.crt
+   SSLCertificateKeyFile /etc/pki/tls/private/<%= @fqdn%>.key
+   ServerName <%= @fqdn%>
+   ProxyRequests off
+   <Proxy *>
+	Order deny,allow
+	Allow from all
+   </Proxy>
+   ProxyPreserveHost on
+   ProxyPass / http://localhost:8080/ nocanon
+   ProxyPassReverse  /  http://localhost:8080/
+   RequestHeader set X-Forwarded-Proto "https"
+   RequestHeader set X-Forwarded-Port "443"
+
+</VirtualHost>
