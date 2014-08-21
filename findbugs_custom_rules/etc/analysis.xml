@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.0-dev-20110627" sequence="0" timestamp="1309206221000" analysisTimestamp="1309208255686" release="">
+  <Project projectName="FindBugsCustomRules">
+    <Jar>/home/graham/dev/workspace/FindBugs4Deprecating3rdParty/target/classes</Jar>
+    <Jar>/home/graham/dev/workspace/FindBugs4Deprecating3rdParty/target/test-classes</Jar>
+    <SrcDir>/home/graham/dev/workspace/FindBugs4Deprecating3rdParty/src/main/java</SrcDir>
+    <SrcDir>/home/graham/dev/workspace/FindBugs4Deprecating3rdParty/src/test/java</SrcDir>
+    <SrcDir>/home/graham/dev/workspace/FindBugs4Deprecating3rdParty/src/test/benchmarks</SrcDir>
+    <WrkDir>/home/graham/dev/workspace/FindBugs4Deprecating3rdParty/etc</WrkDir>
+    <SuppressionFilter>
+      <LastVersion value="-1" relOp="NEQ"/>
+    </SuppressionFilter>
+  </Project>
+  <CloudDetails online="false"/>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.CallsStaticMethodOfDeprecatedClass">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.CallsStaticMethodOfDeprecatedClass" start="5" end="7" sourcefile="CallsStaticMethodOfDeprecatedClass.java" sourcepath="com/egnyte/fbplugins/customrules/CallsStaticMethodOfDeprecatedClass.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.ConstructsNewInstanceOfDeprecatedClass">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.ConstructsNewInstanceOfDeprecatedClass" start="3" end="7" sourcefile="ConstructsNewInstanceOfDeprecatedClass.java" sourcepath="com/egnyte/fbplugins/customrules/ConstructsNewInstanceOfDeprecatedClass.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.Deprecated3rdPartyDetectorTest">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.Deprecated3rdPartyDetectorTest" start="28" end="84" sourcefile="Deprecated3rdPartyDetectorTest.java" sourcepath="com/egnyte/fbplugins/customrules/Deprecated3rdPartyDetectorTest.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.DeprecatedInGenerics$HasDeprecatedClassInGenericsOfField">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedInGenerics$HasDeprecatedClassInGenericsOfField" start="11" end="11" sourcefile="DeprecatedInGenerics.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedInGenerics.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.DeprecatedInGenerics$HasDeprecatedClassInGenericsOfLocalVariable">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedInGenerics$HasDeprecatedClassInGenericsOfLocalVariable" start="15" end="19" sourcefile="DeprecatedInGenerics.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedInGenerics.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.DeprecatedInGenerics$HasDeprecatedClassInGenericsOfTypeSignature">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedInGenerics$HasDeprecatedClassInGenericsOfTypeSignature" start="9" end="9" sourcefile="DeprecatedInGenerics.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedInGenerics.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.DeprecatedInGenerics$HasDeprecatedClassInMethodParameter">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedInGenerics$HasDeprecatedClassInMethodParameter" start="22" end="23" sourcefile="DeprecatedInGenerics.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedInGenerics.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N">
+    <Class classname="com.egnyte.fbplugins.customrules.DeprecatedSettings">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedSettings" sourcefile="DeprecatedSettings.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedSettings.java"/>
+    </Class>
+    <Method classname="com.egnyte.fbplugins.customrules.DeprecatedSettings" name="settingsFromTxtFile" signature="(Ljava/lang/String;)Lcom/egnyte/fbplugins/customrules/DeprecatedSettings;" isStatic="true">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedSettings" start="44" end="66" startBytecode="0" endBytecode="456" sourcefile="DeprecatedSettings.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedSettings.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="55" end="56" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedSettings" start="53" end="53" startBytecode="61" endBytecode="61" sourcefile="DeprecatedSettings.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedSettings.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N">
+    <Class classname="com.egnyte.fbplugins.customrules.DeprecatedSettings">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedSettings" sourcefile="DeprecatedSettings.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedSettings.java"/>
+    </Class>
+    <Method classname="com.egnyte.fbplugins.customrules.DeprecatedSettings" name="settingsFromTxtFile" signature="(Ljava/lang/String;)Lcom/egnyte/fbplugins/customrules/DeprecatedSettings;" isStatic="true">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedSettings" start="51" end="73" startBytecode="0" endBytecode="406" sourcefile="DeprecatedSettings.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedSettings.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="55" end="56" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="com.egnyte.fbplugins.customrules.DeprecatedSettings" start="60" end="60" startBytecode="61" endBytecode="61" sourcefile="DeprecatedSettings.java" sourcepath="com/egnyte/fbplugins/customrules/DeprecatedSettings.java"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.HasADeprecatedClassAsAMethodParameter">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.HasADeprecatedClassAsAMethodParameter" start="5" end="7" sourcefile="HasADeprecatedClassAsAMethodParameter.java" sourcepath="com/egnyte/fbplugins/customrules/HasADeprecatedClassAsAMethodParameter.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.HasADeprecatedClassAsSuperclass">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.HasADeprecatedClassAsSuperclass" start="3" end="3" sourcefile="HasADeprecatedClassAsSuperclass.java" sourcepath="com/egnyte/fbplugins/customrules/HasADeprecatedClassAsSuperclass.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.HasADeprecatedClassForALocalVariable">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.HasADeprecatedClassForALocalVariable" start="6" end="15" sourcefile="HasADeprecatedClassForALocalVariable.java" sourcepath="com/egnyte/fbplugins/customrules/HasADeprecatedClassForALocalVariable.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.HasDeprecatedClassForAField">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.HasDeprecatedClassForAField" start="5" end="5" sourcefile="HasDeprecatedClassForAField.java" sourcepath="com/egnyte/fbplugins/customrules/HasDeprecatedClassForAField.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.MyDeprecatedClass">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.MyDeprecatedClass" start="3" end="5" sourcefile="MyDeprecatedClass.java" sourcepath="com/egnyte/fbplugins/customrules/MyDeprecatedClass.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="DEPRECATED_3RD_PARTY_CLASS" priority="1" abbrev="DEP" category="CORRECTNESS">
+    <Class classname="com.egnyte.fbplugins.customrules.UsesDeprecatedClassInInstanceOfCheck">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.UsesDeprecatedClassInInstanceOfCheck" start="3" end="7" sourcefile="UsesDeprecatedClassInInstanceOfCheck.java" sourcepath="com/egnyte/fbplugins/customrules/UsesDeprecatedClassInInstanceOfCheck.java"/>
+    </Class>
+    <String value="this class sucks"/>
+  </BugInstance>
+  <BugInstance type="UCF_USELESS_CONTROL_FLOW_NEXT_LINE" priority="1" abbrev="UCF" category="STYLE">
+    <Class classname="com.egnyte.fbplugins.customrules.UsesDeprecatedClassInInstanceOfCheck">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.UsesDeprecatedClassInInstanceOfCheck" sourcefile="UsesDeprecatedClassInInstanceOfCheck.java" sourcepath="com/egnyte/fbplugins/customrules/UsesDeprecatedClassInInstanceOfCheck.java"/>
+    </Class>
+    <Method classname="com.egnyte.fbplugins.customrules.UsesDeprecatedClassInInstanceOfCheck" name="someMethod" signature="(Ljava/lang/Object;)V" isStatic="false">
+      <SourceLine classname="com.egnyte.fbplugins.customrules.UsesDeprecatedClassInInstanceOfCheck" start="6" end="7" startBytecode="0" endBytecode="72" sourcefile="UsesDeprecatedClassInInstanceOfCheck.java" sourcepath="com/egnyte/fbplugins/customrules/UsesDeprecatedClassInInstanceOfCheck.java"/>
+    </Method>
+    <SourceLine classname="com.egnyte.fbplugins.customrules.UsesDeprecatedClassInInstanceOfCheck" start="6" end="6" startBytecode="4" endBytecode="4" sourcefile="UsesDeprecatedClassInInstanceOfCheck.java" sourcepath="com/egnyte/fbplugins/customrules/UsesDeprecatedClassInInstanceOfCheck.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="19">
+    <MissingClass>com.youdevise.fbplugins.tdd4fb.DetectorAssert</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.BugInstance</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.BugReporter</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.Detector</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.SystemProperties</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.asm.FBClassReader</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.ba.ClassContext</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.classfile.CheckedAnalysisException</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.classfile.ClassDescriptor</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.classfile.Global</MissingClass>
+    <MissingClass>edu.umd.cs.findbugs.classfile.IAnalysisCache</MissingClass>
+    <MissingClass>org.apache.commons.lang.StringUtils</MissingClass>
+    <MissingClass>org.junit.Assert</MissingClass>
+    <MissingClass>org.junit.Before</MissingClass>
+    <MissingClass>org.junit.Test</MissingClass>
+    <MissingClass>org.mockito.Mockito</MissingClass>
+    <MissingClass>org.objectweb.asm.ClassVisitor</MissingClass>
+    <MissingClass>org.objectweb.asm.FieldVisitor</MissingClass>
+    <MissingClass>org.objectweb.asm.MethodVisitor</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Mon, 27 Jun 2011 21:23:41 +0100" total_classes="63" referenced_classes="34" total_bugs="16" total_size="1708" num_packages="1" vm_version="19.1-b02" cpu_seconds="56.32" clock_seconds="14145.00" peak_mbytes="176.42" alloc_mbytes="442.69" gc_seconds="0.51" priority_1="16">
+    <PackageStats package="com.egnyte.fbplugins.customrules" total_bugs="16" total_types="19" total_size="1708" priority_1="16">
+      <ClassStats class="com.egnyte.fbplugins.customrules.Deprecated3rdPartyDetector" sourceFile="Deprecated3rdPartyDetector.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.egnyte.fbplugins.customrules.Deprecated3rdPartyDetector$DeprecatedClassVisitor" sourceFile="Deprecated3rdPartyDetector.java" interface="false" size="77" bugs="0"/>
+      <ClassStats class="com.egnyte.fbplugins.customrules.Deprecated3rdPartyDetectorTest" sourceFile="Deprecated3rdPartyDetectorTest.java" interface="false" size="15" bugs="1" priority_1="1"/>
+      <ClassStats class="com.egnyte.fbplugins.customrules.DeprecatedSettings" sourceFile="DeprecatedSettings.java" interface="false" size="53" bugs="2" priority_1="2"/>
+      <ClassStats class="com.egnyte.fbplugins.customrules.DeprecatedSettingsReaderTest" sourceFile="DeprecatedSettingsReaderTest.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.egnyte.fbplugins.customrules.HasDeprecatedClassForAField" sourceFile="HasDeprecatedClassForAField.java" interface="false" size="4" bugs="1" priority_1="1"/>
+      <ClassStats class="com.egnyte.fbplugins.customrules.MyDeprecatedClass" sourceFile="MyDeprecatedClass.java" interface="false" size="3" bugs="1" priority_1="1"/>
+      <ClassStats class="com.egnyte.fbplugins.customrules.ThisPluginDetector" sourceFile="ThisPluginDetector.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.egnyte.fbplugins.customrules.ThisPluginDetector$SetupChecker" sourceFile="ThisPluginDetector.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.SAXBugCollectionHandler" totalMilliseconds="104" invocations="1" avgMicrosecondsPerInvocation="104227" maxMicrosecondsPerInvocation="104227" standardDeviationMircosecondsPerInvocation="0"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
