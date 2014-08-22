@@ -12,11 +12,11 @@
  <distributionManagement> 
    <repository> 
      <id>releases</id> 
-     <url>http://107.167.189.167:8081/nexus/content/repositories/releases/</url> 
+     <url>https://49.206.12.203/nexus/content/repositories/releases/</url> 
    </repository> 
   <snapshotRepository> 
      <id>snapshots</id> 
-     <url>http://107.167.189.167:8081/nexus/content/repositories/snapshots/</url> 
+     <url>https://49.206.12.203/nexus/content/repositories/snapshots/</url> 
    </snapshotRepository> 
  </distributionManagement> 
  <build> 
@@ -72,7 +72,7 @@
     </executions> 
     <configuration> 
        <serverId>nexus</serverId> 
-       <nexusUrl>http://107.167.189.167:8081/nexus/</nexusUrl> 
+       <nexusUrl>https://107.167.189.167/nexus/</nexusUrl> 
        <skipStaging>true</skipStaging> 
     </configuration> 
  </plugin> 
